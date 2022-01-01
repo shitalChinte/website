@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+.mid_section {
+    background-color: #f8f8ff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.nav-link {
+    display: block;
+    padding: 0rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.second_section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(16 41 132);
+    font-weight: 600;
+	font-family: 'Playfair Display', serif;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #112A85;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    color: #F6770D;
+    line-height: 30px;
+}
+
+.custom_btn {
+    background-color: #112A85;
+    color: white;
+    box-shadow: 2px 2px 6px #E8E8E8;
+    border: 1px solid #112A85;
+	font-family: 'Playfair Display', serif;
+}
+
+.custom_btn:hover {
+    background-color: #112A85;
+    color: white;
+    box-shadow: 2px 2px 6px #E8E8E8;
+    border: 1px solid #112A85;
+}
+
+.header_div {
+    margin-top: 24%;
+    width: 90%;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(0 0 0 / 0%);
+    border-radius: 0.25rem;
+    height: 274px;
+    margin-bottom: 9%;
+    padding: 12px;
+    text-align: center;
+    background: #f8f8ff;
+    box-shadow: 2px 2px 11px #e8e8e8;
+    padding-top: 21px;
+}
+
+.card:hover {
+    background: #112A85;
+    color: white;
+}
+
+.card:hover h5 {
+    color: white;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+    color: #112A85;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.section3 {
+    background-color: #F6770D;
+    height: 300px;
+    margin-top: 18%;
+    padding-top: 59px;
+    margin-bottom: 3%;
+}
+
+.mm {
+    margin-top: -36%;
+}
+
+.mm2 {
+    margin-top: -8%;
+    margin-bottom: -14px;
+    font-size: 22px;
+}
+
+.mm3 {
+    margin-bottom: 2px;
+}
+
+.ic {
+    width: 7%;
+}
+
+.pp {
+    fill: #112a85;
+}
+
+.card:hover .pp {
+    fill: #fff;
+}
+
+.icon_svg {
+    width: 73px;
+    height: 73px;
+}
+
+.pp2 {
+    fill: #F6770D;
+}
+
+.pp2:hover {
+    fill: #fff;
+}
+
+.blg {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 62px;
+    margin-top: 22%;
+}
+
+.test_img {
+    width: 72% !important;
+    padding: 11px;
+    margin-left: 24%;
+    border: 3px solid #112a85;
+    border-radius: 65px;
+    margin-top: 7%;
+}
+
+@media (max-width: 460px) {
+    .mm {
+        margin-top: -117%;
+        width: 56% !important;
+        margin-left: 43%;
+    }
+    .logo {
+        width: 30%;
+        z-index: 99;
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(16 41 132);
+        font-weight: 600;
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+    .header_div {
+        margin-top: 13%;
+        width: 90%;
+        padding-left: 16px;
+    }
+    .test_img {
+        width: 19% !important;
+        padding: 11px;
+        margin-left: 3%;
+        border: 3px solid #112a85;
+        border-radius: 65px;
+        margin-top: 7%;
+    }
+}
