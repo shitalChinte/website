@@ -284,3 +284,12 @@ h4 {
 .news{
     color: #F6770D;
 }
+.footer-text {
+    min-height: 59px;
+}
+img.startup-logo {
+    margin-top: 38px;
+}
+.team-img{
+    width: 60%;
+}
